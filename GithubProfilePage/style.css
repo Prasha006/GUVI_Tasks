@@ -1,0 +1,91 @@
+.container{
+    background-color:rgba(197, 207, 205, 0.904);
+    width: 1150px;
+    height: 570px;
+}
+
+.header-container{
+    display: flex;
+    height: 25px;
+    width: 100%;
+    background-color: #24292f;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+    padding-bottom: 20px;
+    letter-spacing: 2px;
+}
+
+.sub-container{
+    display: grid;
+    grid-template-columns: 280px 223px 223px 223px;
+    grid-template-rows:60px 150px 150px;
+    gap: 30px;
+    margin: 50px;
+    margin-left: 80px;
+}
+
+.box1{
+    background-color: rgba(35, 35, 36, 0.825);
+    grid-row: span 3;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+}
+
+.box2{
+    background-color: rgba(35, 35, 36, 0.825);
+    grid-column: span 3;
+    padding: 15px;
+    height: 20px;
+    width:500px;
+    margin-left: 90px;
+    color: rgba(175, 166, 166, 0.838);
+    font-size: 25px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    border-radius: 10px;
+}
+
+.box3{
+    background-color: rgba(35, 35, 36, 0.825);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.box4{
+    background-color: rgba(35, 35, 36, 0.825);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.box5{
+    background-color: rgba(35, 35, 36, 0.825);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+.box6{
+    grid-column: span 3;
+    background-color: rgba(35, 35, 36, 0.825);
+    border-radius: 20px;
+    margin: 15px;
+}
+
+body{
+    display: grid;
+    place-content: center;
+    min-height: 100vh;
+    
+}
+.heading{
+    margin-left: 45%;
+    font-style:normal;
+    letter-spacing: 5px;
+}
+
+.logo{
+    margin-left:20px;
+    
+}
